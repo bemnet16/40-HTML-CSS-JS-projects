@@ -27,21 +27,11 @@ Before you begin, ensure you have the following:
 ### Installation
 
 1. **Clone the Repository**
-   https://github.com/bemnet16/40-HTML-CSS-JS-projects
 3. **Navigate to a project directory:**
-   
-
 
 ## Resources
-- [MDN Web Docs](https://developer.mozilla.org/en-US/)
 - [W3Schools](https://www.w3schools.com)
 - [JavaScript.info](https://javascript.info/)
-
-## Contributing
-Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## License
-This project is licensed under the [MIT License](LICENSE.md).
 
 ## Contact
 - **Email**: [bemnetadugnaw@gmail.com](mailto:bemnetadugnaw@gmail.com)
