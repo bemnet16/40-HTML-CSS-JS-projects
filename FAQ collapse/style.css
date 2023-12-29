@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: #eee;
+}
+
+.container {
+  width: 40%;
+  text-align: center;
+}
+.container h1 {
+  color: rgb(31, 121, 121);
+}
+.faq {
+  width: 100%;
+  padding: 0 20px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  margin: 12px 0;
+  z-index: 2;
+  position: relative;
+}
+
+.back {
+  color: rgba(34, 234, 23, 0.35);
+  font-weight: bolder;
+  font-size: 40px;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  z-index: -1;
+  display: none;
+}
+.back.show {
+  display: flex;
+}
+.faq.show {
+  background-color: white;
+}
+
+.faq p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq p button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  height: 15px;
+  rotate: -45deg;
+  cursor: pointer;
+}
+.faq p button:hover {
+  color: orangered;
+}
+
+.faq .ans {
+  display: none;
+}
+.faq .ans.show {
+  display: flex;
+}

@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+button {
+  position: absolute;
+  top: 50px;
+  min-width: 100px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background-color: purple;
+  padding: 8px 13px;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(-2px);
+  background-color: rgb(176, 78, 176);
+}
+
+.boxes {
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  display: flex;
+  flex-wrap: wrap;
+  transition: 0.5s ease;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-image: url("deset.jpg");
+  box-shadow: 2px 2px orange, 4px 4px orange, 6px 6px orange, 8px 8px orange,
+    10px 10px orange;
+  transition: 0.5s ease;
+}
+
+.boxes.right {
+  width: 400px;
+  height: 400px;
+  box-shadow: 2px 2px orange, 4px 4px orange, 6px 6px orange, 8px 8px orange,
+    10px 10px orange;
+}
+
+.boxes.right > * {
+  transform: rotate(360deg);
+  margin: 0;
+  box-shadow: none;
+}
+
+.boxes.left > * {
+  transform: rotate(-360deg);
+}

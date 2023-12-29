@@ -1,0 +1,39 @@
+{
+  "datas": [
+    {
+      "id": 0,
+      "img": "assets/deset.jpg",
+      "name": "Tana Deset",
+      "info": "visit desets",
+      "color": "aqua"
+    },
+    {
+      "id": 1,
+      "img": "assets/addisababa.png",
+      "name": "Addis Ababa",
+      "info": "visit addis ababa",
+      "color": "orange"
+    },
+    {
+      "id": 2,
+      "img": "assets/film.png",
+      "name": "Hacker's Movie",
+      "info": "enjoy hacker's movie",
+      "color": "burlywood"
+    },
+    {
+      "id": 3,
+      "img": "assets/greenland.png",
+      "name": "Green Land",
+      "info": "explore the world",
+      "color": "greenyellow"
+    },
+    {
+      "id": 4,
+      "img": "assets/ocean.png",
+      "name": "Silent Ocean",
+      "info": "who? under the ocean!",
+      "color": "cadetblue"
+    }
+  ]
+}

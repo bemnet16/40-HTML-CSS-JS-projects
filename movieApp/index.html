@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="search" id="form">
+      <span value="">The Movie Name</span>
+      <select name="select" class="select" id="select">
+        <option value="0">Contains</option>
+        <option value="1">Starts with</option>
+      </select>
+      <input
+        type="text"
+        id="search"
+        placeholder="Search your favorite film..."
+      />
+    </form>
+    <div class="container">
+      <div class="card">
+        <div
+          class="img"
+          style="background-image: url('../expandig cards/assets/deset.jpg')"
+        ></div>
+        <div class="tit_card">
+          <h6 class="title">title</h6>
+          <h6 class="rate">4.6</h6>
+        </div>
+        <div class="overview">
+          <h4>overview</h4>
+          <p class="content"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

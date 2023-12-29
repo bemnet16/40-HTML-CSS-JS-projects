@@ -1,0 +1,111 @@
+body {
+  color: #fff;
+  background-color: rgb(72, 117, 213);
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.stateone {
+  text-align: center;
+}
+
+.stateone button {
+  padding: 0.6rem 1.3rem;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(72, 117, 213);
+  border: none;
+  cursor: pointer;
+}
+
+.stateone button:hover {
+  color: rgb(52, 163, 163);
+  scale: 1.01;
+}
+
+.stateone button:focus {
+  outline: none;
+}
+
+.statetwo {
+  text-align: center;
+}
+
+.statetwo .con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.statetwo .con .choice {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #fff;
+  margin: 10px;
+  font-size: 21px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.statetwo .con .choice img {
+  width: 40px;
+  height: 40px;
+  margin: 10px auto 5px;
+}
+
+.statetwo .con .choice:hover {
+  color: red;
+  background-color: #fff;
+}
+
+.game {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.game .timer,
+.game .scoreboard {
+  position: fixed;
+  top: 10px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+
+.game .timer {
+  left: 10px;
+}
+
+.game .scoreboard {
+  right: 10px;
+}
+
+.game .insect {
+  position: absolute;
+  cursor: pointer;
+}
+
+.game .insect img {
+  width: 60px;
+  height: 60px;
+}
+
+.hidden {
+  display: none;
+}

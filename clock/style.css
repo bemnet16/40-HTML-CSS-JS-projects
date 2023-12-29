@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  overflow-x: hidden;
+  transition: 0.4s ease;
+}
+
+.mode {
+  color: #fff;
+  background-color: #000;
+  font-size: 16px;
+  width: fit-content;
+  padding: 5px 10px;
+  margin: 7% auto 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mode.night {
+  color: #000;
+  background-color: #fff;
+}
+
+body.night {
+  color: #fff;
+  background-color: #000;
+}
+
+.clock {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: relative;
+  transform-origin: top left;
+  border: 2px solid yellowgreen;
+  margin: 20px 0 70px;
+}
+
+.center {
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  background-color: rgb(146, 69, 69);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.hour {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  height: 55px;
+  width: 2.5px;
+  background-color: #000;
+  transform-origin: bottom center;
+}
+
+.minute {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  height: 80px;
+  width: 2.5px;
+  background-color: #000;
+  transform-origin: bottom center;
+}
+
+.hour.night,
+.minute.night {
+  background-color: #fff;
+}
+
+.second {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  height: 95px;
+  width: 2.3px;
+  background-color: #ff0000;
+  transform-origin: bottom center;
+  /* transition: 1s linear; */
+}
+
+.time {
+  text-align: center;
+  font-size: 60px;
+  margin: 10px;
+}
+
+.day {
+  color: gray;
+  font-size: 20px;
+}
+
+.tew {
+  position: absolute;
+  left: 50%;
+  width: 2.5px;
+  height: 10px;
+  background-color: #8a5555;
+  transform-origin: left center;
+}
+.nine {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  height: 2.5px;
+  width: 8px;
+  background-color: #8a5555;
+  transform-origin: left center;
+}
+.six {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  width: 2.5px;
+  height: 10px;
+  background-color: #8a5555;
+  transform-origin: left center;
+}
+
+.three {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+  height: 2.5px;
+  width: 8px;
+  background-color: #8a5555;
+  transform-origin: left center;
+}

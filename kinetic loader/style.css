@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(50, 70, 97);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.tri {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transition: transform 0.5s ease-in;
+}
+
+.first {
+  transform-origin: right bottom;
+  transform: translate(-50%) rotate(-45deg);
+}
+
+.second {
+  transform-origin: left bottom;
+  transform: translate(50%) rotate(-45deg);
+}
+
+.tri > * {
+  width: 50px;
+  height: 70px;
+  position: absolute;
+  background-color: rgb(50, 70, 97);
+}
+
+.shad_fir {
+  transform: rotate(45deg);
+  transform-origin: right top;
+}
+
+.shad_rig {
+  transform: rotate(-45deg);
+  transform-origin: left top;
+}

@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #395576;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+button {
+  background-color: rgb(25, 199, 199);
+  color: rgb(131, 32, 32);
+  font-weight: bold;
+  border: 0;
+  border-radius: 20px;
+  min-width: 150px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(165, 255, 255);
+}
+
+button:focus {
+  outline: none;
+}
+
+.notification {
+  min-width: 180px;
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+}
+
+.notification > * {
+  background-color: #ffffff;
+  width: 96%;
+  margin: 10px 2%;
+  padding: 15px 5px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.info {
+  color: purple;
+}

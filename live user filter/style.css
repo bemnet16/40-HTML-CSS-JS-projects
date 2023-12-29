@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #fafafa;
+}
+
+.container {
+  width: 300px;
+  height: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 1px 3px 6px rgba(23, 23, 23, 0.2);
+}
+
+.head {
+  padding: 2px 15px 15px;
+  background-color: rgb(58, 58, 253);
+  color: #fff;
+}
+
+.head h4 {
+  margin-bottom: 0;
+}
+
+.head p {
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.head input {
+  width: 90%;
+  height: 35px;
+  padding: 8px 10px;
+  margin: 5px 5%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 0;
+  border-radius: 20px;
+}
+
+.head input:focus {
+  outline: none;
+}
+
+.users {
+  background-color: #fff;
+  width: 100%;
+  max-height: 400px;
+  padding: 2px 2px 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.users::-webkit-scrollbar {
+  stroke-width: 0px;
+}
+
+.user {
+  width: 108%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+  margin: 2px auto 0px;
+  padding: 0px 2px 20px;
+  position: relative;
+  cursor: pointer;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.user img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.user h3 {
+  margin: 15px 75px 3px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.user p {
+  width: 100%;
+  margin: 3px 75px 0;
+  font-size: 15px;
+  font-weight: 550;
+  color: rgb(80, 78, 78);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

@@ -1,0 +1,214 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "The ocean",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 7.5
+    },
+    {
+      "id": 2,
+      "name": "The Journey",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 3.5
+    },
+    {
+      "id": 3,
+      "name": "Absolute Journey",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 7.5
+    },
+    {
+      "id": 4,
+      "name": "Best Festival",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 4.2
+    },
+    {
+      "id": 5,
+      "name": "Aroundt The World",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 8.7
+    },
+    {
+      "id": 6,
+      "name": "Give Up",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 2.9
+    },
+    {
+      "id": 7,
+      "name": "The Actress",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 6.5
+    },
+    {
+      "id": 8,
+      "name": "See The Difference",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 7.1
+    },
+    {
+      "id": 9,
+      "name": "Count it",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 3.5
+    },
+    {
+      "id": 10,
+      "name": "Down Down",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 5.2
+    },
+    {
+      "id": 11,
+      "name": "The Journey",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 4.9
+    },
+    {
+      "id": 12,
+      "name": "The Big Dream",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 9.6
+    },
+    {
+      "id": 13,
+      "name": "Never",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 2.5
+    },
+    {
+      "id": 14,
+      "name": "Estonia in the world",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 3.5
+    },
+    {
+      "id": 15,
+      "name": "The Casitopia Hope",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 8.8
+    },
+    {
+      "id": 16,
+      "name": "Power of Faith",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 10.0
+    },
+    {
+      "id": 17,
+      "name": "Hidden Move",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 3.5
+    },
+    {
+      "id": 18,
+      "name": "The Dart",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 6.5
+    },
+    {
+      "id": 19,
+      "name": "Known or unknown",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 7.3
+    },
+    {
+      "id": 20,
+      "name": "Story of you",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 3.5
+    },
+    {
+      "id": 21,
+      "name": "You must know",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 7.7
+    },
+    {
+      "id": 22,
+      "name": "Raw mind",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 4.1
+    },
+    {
+      "id": 23,
+      "name": "From the beginning",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 7.7
+    },
+    {
+      "id": 24,
+      "name": "Never Leace",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 7.7
+    },
+    {
+      "id": 25,
+      "name": "Throw the stone",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 3.7
+    },
+    {
+      "id": 26,
+      "name": "Flip the thought",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 7.1
+    },
+    {
+      "id": 27,
+      "name": "Zebra's habit",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 8.5
+    },
+    {
+      "id": 28,
+      "name": "Your's best",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 2.9
+    },
+    {
+      "id": 29,
+      "name": "Warrior of jungles",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 7.5
+    },
+    {
+      "id": 30,
+      "name": "Finishers here",
+      "src": "../expandig cards/assets/deset.jpg",
+      "overview": "This text is for demo so it hasn't any relation to the above refered movie ok!! animated navigation event keycodes expanding cards assets add. film",
+      "rate": 9.5
+    }
+  ]
+}

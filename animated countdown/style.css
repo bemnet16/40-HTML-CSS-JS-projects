@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.con {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: none;
+}
+
+.con.active {
+  display: flex;
+}
+
+span {
+  color: orange;
+  font-size: 46px;
+  padding: 8px 0;
+  position: absolute;
+  transform-origin: bottom center;
+  transform: rotate(-120deg);
+  display: none;
+}
+
+span.active {
+  display: block;
+  animation: rot 0.8s 1 linear;
+}
+
+.ready {
+  width: 200px;
+  height: 100px;
+  padding: 5px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+  background-color: #fff;
+  position: absolute;
+  top: 130px;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(-120deg);
+  }
+
+  25% {
+    transform: rotate(15deg);
+  }
+  45% {
+    transform: rotate(-5deg);
+  }
+  55% {
+    transform: rotate(5deg);
+  }
+  65% {
+    transform: rotate(15deg);
+  }
+  80% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(120deg);
+  }
+}
+
+.go {
+  position: absolute;
+  font-size: 23px;
+  font-weight: 600;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.go.active {
+  display: flex;
+}

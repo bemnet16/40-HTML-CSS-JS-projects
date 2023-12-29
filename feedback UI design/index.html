@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback UI Design</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="feedback">
+      <p>
+        How satisfied are you with our <br />
+        customer support performance?
+      </p>
+      <form>
+        <label for="unhappy">
+          <div class="face"></div>
+          <div class="feed">unHappy</div>
+          <input type="radio" name="feedback" id="unhappy" value="unHappy" />
+        </label>
+        <label for="neutral">
+          <div class="face"></div>
+          <div class="feed">Neutral</div>
+          <input type="radio" name="feedback" id="neutral" value="Neutral" />
+        </label>
+        <label for="satisfied">
+          <div class="face"></div>
+          <div class="feed">Satisfied</div>
+          <input
+            type="radio"
+            name="feedback"
+            id="satisfied"
+            value="Satisfied"
+          />
+        </label>
+      </form>
+      <button>Send Review</button>
+    </div>
+    <div class="thanks hidden">
+      <span style="color: red; font-size: 70px">&#x2665;</span>
+      <p>Thank you!</p>
+      <p>FeedBack : <span id="review">Satisfied</span></p>
+      <p>We'll use your feedback to improve our <br />customer support.</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

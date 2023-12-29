@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(37, 37, 118); */
+  background-color: rgb(38, 46, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+form {
+  margin: 20px auto 40px;
+}
+
+input {
+  color: #fff;
+  background-color: rgb(72, 37, 118);
+  border: none;
+  width: 600px;
+  height: 50px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+}
+
+.card {
+  color: #fff;
+  background-color: rgb(72, 37, 118);
+  width: 700px;
+  border-radius: 20px;
+  display: none;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  margin: 15px 20px 30px;
+  border: 10px solid rgb(38, 46, 88);
+  border-radius: 50%;
+}
+
+.info {
+  color: #fff;
+  margin: 20px 5px;
+  width: 100%;
+}
+
+.name {
+  font-size: 23px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+.status {
+  padding: 10px 10px 10px 0;
+  text-align: justify;
+}
+
+.follow {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 10px 0;
+}
+
+.recent {
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.recent > * {
+  width: fit-content;
+  background-color: rgb(38, 46, 88);
+  padding: 3px 8px;
+  margin: 5px 8px 5px 0;
+}
+
+@media (max-width: 560px) {
+  body {
+    width: 95%;
+  }
+  input {
+    width: 90%;
+  }
+  .card {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .follow {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .recent {
+    width: 100%;
+  }
+}

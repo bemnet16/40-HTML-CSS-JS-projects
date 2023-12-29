@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+h2 {
+  color: red;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.show,
+.close {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  color: orange;
+  font-weight: bold;
+  border: 1px solid orange;
+  cursor: pointer;
+}
+
+.show {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.show:hover,
+.close:hover {
+  color: #fff;
+  background-color: orange;
+}
+
+nav,
+.black,
+.green {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 300px;
+  padding: 10px 20px;
+  transition: 0.5s linear;
+  left: -100%;
+}
+
+nav {
+  background-color: #fff;
+  transition-delay: 0.3s;
+}
+
+.black {
+  background-color: black;
+  width: 320px;
+  transition-delay: 0.15s;
+}
+
+.green {
+  background-color: green;
+  width: 340px;
+}
+
+nav .head {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 5px 20px;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 15px;
+}
+
+nav ul li {
+  margin: 15px 3px;
+}
+
+.dis {
+  left: 0;
+}

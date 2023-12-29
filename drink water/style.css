@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(23, 127, 218);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.upper {
+  text-align: center;
+  margin: 0;
+}
+
+.bigglass {
+  background-color: white;
+  width: 140px;
+  height: 300px;
+  border: 3px solid rgb(26, 83, 227);
+  border-radius: 5px 5px 50px 50px;
+  margin: 20px auto 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bigglass .empty {
+  color: rgb(26, 83, 227);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bigglass .empty h3 {
+  margin: 0;
+}
+
+.bigglass .filled {
+  color: rgb(26, 83, 227);
+  background-color: rgba(68, 164, 248, 0.9);
+  height: 0%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.lower {
+  text-align: center;
+  display: flex;
+}
+
+.lower .glass {
+  height: 75px;
+  width: 40px;
+  margin: 5px;
+  border: 3px solid rgb(26, 83, 227);
+  border-radius: 5px 5px 15px 15px;
+  background-color: #fff;
+  color: rgb(26, 83, 227);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.glass.fill {
+  color: #fff;
+  background-color: rgba(68, 164, 248, 0.9);
+}

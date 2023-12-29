@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  width: 600px;
+  height: fit-content;
+  background-color: rgba(12, 47, 163, 0.7);
+  text-align: center;
+  padding: 20px 30px 50px;
+  border-radius: 30px;
+}
+
+.timer {
+  border: solid 2px white;
+  width: 0%;
+  animation: exp 5s linear infinite;
+}
+
+p {
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 30px;
+}
+
+.user {
+  width: fit-content;
+  margin: 5px auto;
+  position: relative;
+  padding: 25px 0px 0;
+  text-align: start;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 5px;
+  border-radius: 50%;
+}
+
+.name {
+  margin: 10px 85px 5px;
+  font-size: 21px;
+  font-weight: normal;
+}
+
+.job {
+  font-weight: normal;
+  margin: 5px 90px 5px;
+}
+
+@keyframes exp {
+  to {
+    width: 100%;
+  }
+}

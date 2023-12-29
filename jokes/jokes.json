@@ -1,0 +1,44 @@
+{
+  "jokes": [
+    {
+      "id": 1,
+      "joke": "Why did the baby cookie cry? Because its mother was a wafer too long!"
+    },
+    {
+      "id": 2,
+      "joke": "Why don't scientists trust atoms? Because they make up everythin!"
+    },
+    {
+      "id": 3,
+      "joke": "What did the baby corn say to its mom? Where's popcorn?"
+    },
+    {
+      "id": 4,
+      "joke": "Why did the tomato turn red? Because it saw the baby lettuce dressing!"
+    },
+    {
+      "id": 5,
+      "joke": "How does a baby chicken dance? Chick to chick!"
+    },
+    {
+      "id": 6,
+      "joke": "Why did the baby go to work? To improves its 'crawling' skills!"
+    },
+    {
+      "id": 7,
+      "joke": "What did the baby pencil say to its parent? I dot my I's and you cross you T's!"
+    },
+    {
+      "id": 8,
+      "joke": "Why did the baby elephant bring a suitcase to the zoo? Becasue it wanted o pack its trunk!"
+    },
+    {
+      "id": 9,
+      "joke": "How does a baby astronaut sleep? In a rocket credle!"
+    },
+    {
+      "id": 10,
+      "joke": "What do you call a baby bear with no teeth? A gummy bear!"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+body {
+  background: rgba(0, 0, 0, 0.86);
+  text-align: center;
+}
+
+.head-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(159, 75, 23);
+  margin-top: 5%;
+}
+
+.type-text {
+  width: 70%;
+  margin: 50px auto;
+  padding: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: gray;
+  text-align: justify;
+}
+
+.letter {
+  padding: 0.6px;
+}
+
+.letter.current {
+  border-left: 3px solid rgba(255, 69, 0, 0.5);
+  animation: blink 1s infinite linear;
+}
+
+.letter.correct {
+  color: rgb(178, 255, 62);
+}
+
+.letter.wrong {
+  color: rgb(255, 51, 51);
+}
+
+@keyframes blink {
+  0% {
+    border-left: 3px solid rgb(0 0, 0, 0);
+  }
+  50% {
+    border-left: 3px solid rgb(255, 69, 0);
+  }
+  100% {
+    border-left: 3px solid rgb(0 0, 0, 0);
+  }
+}
