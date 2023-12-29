@@ -1,2 +1,3 @@
-# 50-HTML-CSS-JS-projects
-For any one who is interested to learn html/css/js briefly 
+# 40-HTML-CSS-JS-projects
+## For any one who is interested to learn html/css/js briefly 
+
