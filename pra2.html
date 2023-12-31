@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    *{
+        box-sizing: border-box;
+        margin: 0; padding: 0;
+        text-transform: capitalize;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body{
+        background: #f2f2f2;
+    }
+    .timeline{
+        width: 50%;
+        margin: 50px 30px;
+        border-radius:5px;
+        box-shadow: 0 3px 5px rgba(0,0,0,.3);
+        background: #fff;
+        position: relative;
+    }
+    .timeline::before{
+        content: '';
+        position: absolute;
+        bottom: -15px;
+        right: -15px;
+        height: 140px;
+        width: 140px;
+        background: #e74c3c;
+        z-index: -1;
+    }
+    .timeline:nth-child(even){
+        margin-left: auto;
+    }
+    .timeline .year{
+        position:absolute;
+        top: 19%; left: -6%;
+        font-size: 40px;
+        height: 100px;
+        width: 185px;
+        text-align: center;
+        line-height: 100px;
+        font-weight: bold;
+        color: white;
+        background-color: #e74c3c;
+        transform: rotate(-90deg);
+        box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    }
+    .timeline .year::before{
+        content: '';
+        position: absolute;
+        top: 100%; left: 92%;
+        height: 16px; width: 15px;
+        background: linear-gradient(45deg, #777 50.5%, transparent 50.5%);
+        transform: rotate(90deg);
+    }
+    .timeline .content{
+        padding-left: 130px;
+        padding-right: 10px;
+        text-align: right;
+        position: relative;
+    }
+    .timeline .content .title{
+        padding: 10px 15px;
+        font-size: 30px;
+        text-align: left;
+        color: #c0392b;
+    }
+    .timeline .content p{
+        text-align: left;
+        color: #e74c3c;
+        margin-left: 10px;
+    }
+    .timeline:nth-child(2)  .title{
+        color: #3498db;
+    }
+    .timeline:nth-child(2)  p{
+        color: #3498db;
+    }
+    .timeline:nth-child(2) .year{
+        background-color: #3498db;
+    }
+    .timeline:nth-child(2)::before{
+        background: #3498db;
+    }
+    .timeline:nth-child(3)  .title{
+        color: #f1c40f;
+    }
+    .timeline:nth-child(3)  p{
+        color: #f1c40f;
+    }
+    .timeline:nth-child(3) .year{
+        background-color: #f1c40f;
+    }
+    .timeline:nth-child(3)::before{
+        background: #f1c40f;
+    }
+    .timeline:nth-child(4)  .title{
+        color: #1abc9c;
+    }
+    .timeline:nth-child(4)  p{
+        color: #1abc9c;
+    }
+    .timeline:nth-child(4) .year{
+        background-color: #1abc9c;
+    }
+    .timeline:nth-child(4)::before{
+        background: #1abc9c;
+    }
+    
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="timeline">
+            <div class="year">2022</div>
+            <div class="content">
+                <h3 class="title">web design</h3>
+                <p>practice makes perfect even if we don't know
+                     enough about something we should do little in order to improve our skill. there i write any thing you want and publish it i will read it one day s also i add another thing to di sslkf h</p>
+            </div>
+        </div>
+
+        <div class="timeline">
+            <div class="year">2019</div>
+            <div class="content">
+                <h3 class="title">web develope</h3>
+                <p>practice makes perfect even if we don't know
+                    enough about something we should do little in order to improve our skill. there i write any thing you want and publish it i will read it one day s also i add another thing to di sslkf h</p>
+            </div>
+        </div>
+
+        <div class="timeline">
+            <div class="year">2017</div>
+            <div class="content">
+                <h3 class="title">Graphic design</h3>
+                <p>practice makes perfect even if we don't know
+                    enough about something we should do little in order to improve our skill. there i write any thing you want and publish it i will read it one day s also i add another thing to di sslkf h</p>
+            </div>
+        </div>
+
+        <div class="timeline">
+            <div class="year">2015</div>
+            <div class="content">
+                <h3 class="title">bem marketing</h3>
+                <p>practice makes perfect even if we don't know
+                    enough about something we should do little in order to improve our skill. there i write any thing you want and publish it i will read it one day s also i add another thing to di sslkf h</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var si = parseInt(readLine(),10);
+        if(si > 30)
+        console.log("it is working well.");
+    </script>
+
+</body>
+</html>

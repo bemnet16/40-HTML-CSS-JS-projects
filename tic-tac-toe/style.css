@@ -1,0 +1,63 @@
+.tic-tac-toe{
+    width: 50%;
+    height: 95vh;
+    background-color: rgb(182, 211, 201);
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.tic-tac-toe__container{
+    display: grid;
+    grid-template-columns: 8vw 8vw 8vw;
+    gap: .8rem;
+    justify-content: center;
+    padding: 2rem;
+    
+}
+
+.board{
+    width: 50vw;
+    text-align: center;
+    margin-left: -10rem;
+}
+.tic-tac-toe--value{
+    height: 7vw;
+    font-size: 6rem;
+    font-weight: bold;
+    color: rgb(80, 77, 75);
+    text-align: center;
+    padding: .5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow:inset 1px 1px 3px 1px rgb(145, 156, 157);
+}
+.tic-tac-toe--value:focus{
+    border: 2px solid rgb(111, 147, 181);
+}
+
+#reset{
+    width: 8rem;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(232, 94, 34);
+    margin: 0 auto;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius:20px;
+}
+
+#reset:hover{
+    scale: 1.03;
+    background-color: rgb(228, 82, 29);
+}
+#player{
+    color: rgb(136, 38, 38);
+    scale: 1.2;
+}
+#result{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(17, 0, 255);
+}

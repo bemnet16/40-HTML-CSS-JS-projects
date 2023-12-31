@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  padding-top: 10em;
+  display: flex;
+  justify-content: center;
+}
+
+.type h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 90px auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s alternate 3, rotateText 3.5s ease alternate 2;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+    text-shadow: 2px 2px 0px red;
+  }
+}
+
+@keyframes rotateText {
+  0% {
+    transform: rotate(0) scale(3);
+    text-shadow: 2px 2px 0px red;
+  }
+  25% {
+    transform: rotate(15deg) scale(1.2) translateX(25px) skewY(20deg);
+  }
+  75% {
+    transform: rotate(-10deg) scale(2) translateX(-30px) skewY(-20deg);
+  }
+  100% {
+    transform: rotate(15deg) scale(2.8) translateX(5px) skewY(0deg);
+  }
+}
